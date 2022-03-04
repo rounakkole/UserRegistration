@@ -10,12 +10,12 @@ namespace UserRegistration
     internal class RegistrationPattern
     {
         public static string firstName = "^[A-Z]{1}[a-zA-Z]{2,}$";
-
+        public static string lastName = "^[A-Z]{1}[a-zA-Z]{2,}$";
 
         public void Validate(string data)
         {
           
-                string result = Regex.IsMatch(data, firstName) ? $"{data}: valid" : $"{data}: invalid";
+                string result = Regex.IsMatch(data, lastName) ? $"{data}: valid" : $"{data}: invalid";
 
                 Console.WriteLine(result);
             

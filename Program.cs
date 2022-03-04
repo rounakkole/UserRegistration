@@ -8,6 +8,11 @@ namespace UserRegistration
         static void Main(string[] args)
         {
             Console.WriteLine("user registration");
+            RegistrationPattern registrationPattern = new RegistrationPattern();
+            registrationPattern.Validate("Rahul");
+            registrationPattern.Validate("Raj");
+            registrationPattern.Validate("raj");
+            registrationPattern.Validate("jo");
         }
     }
 }

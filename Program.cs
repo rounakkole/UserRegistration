@@ -9,10 +9,10 @@ namespace UserRegistration
         {
             Console.WriteLine("user registration");
             RegistrationPattern registrationPattern = new RegistrationPattern();
-            registrationPattern.Validate("Kohli");
-            registrationPattern.Validate("tendulkar");
-            registrationPattern.Validate("Dravid");
-            registrationPattern.Validate("Li");
+            registrationPattern.Validate("abc.xyz@bi.co.in");
+            registrationPattern.Validate("abc@bi.co");
+            registrationPattern.Validate("ab@bi.co.in");
+            registrationPattern.Validate("abc.xyz.co");
         }
     }
 }

@@ -9,8 +9,8 @@ namespace UserRegistration
         {
             Console.WriteLine("user registration");
             RegistrationPattern registrationPattern = new RegistrationPattern();
-            registrationPattern.Validate("Abcd1234");
-            registrationPattern.Validate("abc123");
+            registrationPattern.Validate("abcd1234");
+            registrationPattern.Validate("abcdefhi");
             registrationPattern.Validate("abcDE1234");
             registrationPattern.Validate("abcDE12");
         }
